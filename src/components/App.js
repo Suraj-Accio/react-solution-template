@@ -41,7 +41,6 @@ const App = () => {
       setCities([...temp]);
       
     }, []);
-    //console.log("cities",cities);
     
     
   return (
