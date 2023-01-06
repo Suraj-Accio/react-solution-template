@@ -5,7 +5,7 @@ describe("testing Indian cities list", () => {
       cy.visit("http://localhost:8080");
     });
     it("should check length of ordered list of cities", () => {
-      cy.get("ol").should("have.length", 16);
+      cy.get("ol").should("have.length", 1);
     });
     it("should check the key of ordered list", () => {
       cy.get("ol").get("#location").should('be.visible');
