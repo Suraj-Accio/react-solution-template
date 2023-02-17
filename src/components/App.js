@@ -47,7 +47,7 @@ const App = () => {
     <div>
         <ol id='location'>
         {cities.map((el,i)=>
-            <li id={`location${i+1}`} key={`location${i+1}`}>{el.name}</li>
+            <li key={`location${i+1}`}>{el.name}</li>
         )}
         </ol>
     </div>
